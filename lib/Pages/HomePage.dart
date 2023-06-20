@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+//We didn't tell for text to be white upar. didn't make blue.
+//Material library does all of it automatically
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
