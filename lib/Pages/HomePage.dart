@@ -14,7 +14,16 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         //Scaffold has a head
-        title: Text("Gaming Backlog"),
+        // backgroundColor: Colors.white,
+        // elevation: 0.0,
+        // iconTheme: IconThemeData(color: Colors.black),
+        // title: Text(
+        //   "Gaming Backlog",
+        // style: TextStyle(
+        //   color: Colors.black
+        //   )
+        //   ),
+        title: Text("Catalog App"),
       ),
       body: Center(
         //Scaffold has a body
