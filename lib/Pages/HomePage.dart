@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import '../widgets/drawer.dart';
 //We didn't tell for text to be white upar. didn't make blue.
 //Material library does all of it automatically
 
@@ -22,7 +24,7 @@ class HomePage extends StatelessWidget {
       ),
       //Most commonly, jo property hoti hain, ussi name sae widget hota hain
       drawer:
-          Drawer(), //bottomNavigationBar is alternative to that. Works as a footer
+          MyDrawer(), //bottomNavigationBar is alternative to that. Works as a footer
     );
   }
 }
